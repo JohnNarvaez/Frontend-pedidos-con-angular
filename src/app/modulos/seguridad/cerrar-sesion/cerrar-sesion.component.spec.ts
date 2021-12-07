@@ -1,19 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { InicioComponent } from './inicio.component';
 
-describe('InicioComponent', () => {
-  let component: InicioComponent;
-  let fixture: ComponentFixture<InicioComponent>;
+import { CerrarSesionComponent } from './cerrar-sesion.component';
+
+describe('CerrarSesionComponent', () => {
+  let component: CerrarSesionComponent;
+  let fixture: ComponentFixture<CerrarSesionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InicioComponent ]
+      declarations: [ CerrarSesionComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InicioComponent);
+    fixture = TestBed.createComponent(CerrarSesionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
